@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['Arugula', 'Bacon', 'Basil', 'Broccoli', 'Cheese', 'Chicken', 'Corn', 'Ham', 'Mushroom', 'Olives', 'Onion', 'Pepperoni', 'Peppers', 'Pineapple', 'Pizza', 'Tomatoes']
+
+roboflow:
+  workspace: advanced-computer-vision-assignment
+  project: pizza-object-detector
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/advanced-computer-vision-assignment/pizza-object-detector/dataset/7
